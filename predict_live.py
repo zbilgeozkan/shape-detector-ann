@@ -36,7 +36,7 @@ while True:
         # Draw contour and label it at its center
         M = cv2.moments(cnt)
         if M["m00"] != 0:
-            cX = int(M["m10"] / M["m00"]
+            cX = int(M["m10"] / M["m00"])
             cY = int(M["m01"] / M["m00"])
             cv2.drawContours(frame, [cnt], -1, (0, 255, 0), 2)
             cv2.putText(frame, prediction, (cX - 50, cY),
