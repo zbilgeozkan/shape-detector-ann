@@ -1,4 +1,4 @@
-# 🔷 Shape Recognition with Image Processing and Artificial Neural Network
+# Shape Recognition with Image Processing and Artificial Neural Network
 
 This project is a shape classification system that recognizes **circles**, **squares**, and **triangles** using **image processing techniques** (not deep learning-based feature extraction). The extracted features are then classified using an **Artificial Neural Network (ANN)**.
 
