@@ -19,7 +19,7 @@ while True:
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     edged = cv2.Canny(gray, 50, 150)
 
-    # Find contours in the edge-detected image
+    # Find contours in the image
     contours, _ = cv2.findContours(edged.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     for cnt in contours:
